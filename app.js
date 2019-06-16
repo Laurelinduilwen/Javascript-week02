@@ -40,7 +40,7 @@ newUser.hasAccess = true;
 
 
 const hyfclass19 = {
-    className: "class19",
+    name: "class19",
     doesExist: true,
     studentNumber: 15,
     studentNames: ["name1", "name2", "name3"],
