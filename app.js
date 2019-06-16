@@ -101,3 +101,63 @@ const isPalindrome = (str) => {
 const result = isPalindrome("tacocat");
 
 console.log(result);
+
+
+const isDivisible = (n) => {
+    for (i = 0; i <= n; i++) {
+        if (i % 3 == 0 && i % 5 == 0) {
+            console.log('FizzBuzz');
+        } else if (i % 5 == 0) {
+            console.log('Buzz');
+        } else if (i % 3 == 0) {
+            console.log('Fizz');
+        } else {
+            console.log(i);
+        }
+    }
+}
+
+isDivisible(30);
+
+const a = 5;
+const b = 7;
+
+if (a === b) {
+    console.log("we are equal");
+} else {
+    console.log("we are not equal");
+}
+
+// shorter one
+
+a === b ? console.log("true") : console.log("false");
+
+console.log(a === b ? "true" : "false");
+
+//switch statement
+
+switch (a) {
+    case 3:
+        console.log("fizz");
+        // break;
+    case 5:
+        console.log("buzz");
+    case 3 || 5:
+        console.log("fizbuzz");
+    default:
+        console.log(a);
+}
+
+//truthy and falsy
+
+const value = 1;
+const secondValue = true;
+
+console.log(value == secondValue);
+
+//since it is a boolean 1 counts as true
+
+
+//scope
+
+let scopeA = "a";
